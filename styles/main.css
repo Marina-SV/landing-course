@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "./preview.css";
+@import "./header.css";
+@import "./feedback.css";
+@import "./beginning.css";
+@import "./footer.css";
+@import "./preview.css";
+@import "./format.css";
+@import "./learn.css";
+@import "./preview_next.css";
+@import "./well.css";
+@import "./program-course.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+    line-height: 101%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+
+
+.content{
+    margin: 0 auto;
+    width: 1280px;
+    font-size: 20px;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+
+@media screen and (max-width: 1279px) {
+
+    .content {
+        margin: 0 auto;
+        width: 834px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+}
+
+/* @media screen and (max-width: 460px) {
+    .content {
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 100%;
+    }
+
+} */
+
+
+@media screen and (max-width: 834px) {
+
+    .content {
+        width: 375px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 100%;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}

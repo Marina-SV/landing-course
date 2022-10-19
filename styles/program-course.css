@@ -1,0 +1,478 @@
+.program-course {
+  position: relative;
+}
+
+.program-course__section-title {
+  margin-bottom: 130px;
+  margin-left: 34px;
+}
+
+.program-course__title-container {
+  position: relative;
+}
+
+
+.program-course__black-line-separator {
+  position: absolute;
+  top: 13px;
+  right: 0;
+  width: 35%;
+  height: 14px;
+  background-color: black;
+}
+
+
+.program-course__programs {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.program-course__program:nth-last-of-type(3),
+.program-course__program:nth-last-of-type(6) {
+  margin-right: 0;
+}
+
+.man-at-the-dask {
+  position: absolute;
+  right: 31px;
+  bottom: -100px;
+}
+
+.program-course__program {
+  width: 31.2%;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-right: 37px;
+  margin-bottom: 41px;
+}
+
+.program-course__img-downpart {
+  padding-bottom: 23px;
+  padding-top: 10px;
+}
+
+.program-course__img {
+  width: 100%;
+  display: block;
+}
+
+.program-course__title {
+  font-size: 30px;
+  margin-bottom: 36px;
+  margin-left: 20px;
+}
+
+.program-course__timetable {
+  font-size: 25px;
+  padding-left: 19px;
+}
+
+.program-course__host {
+  font-size: 25px;
+  padding-left: 19px;
+}
+
+.program-course__program:last-of-type .program-course__title {
+  margin-bottom: 0;
+}
+
+.authors {
+  padding: 287px 64px 280px 64px !important;
+}
+
+.authors__title {
+  margin-bottom: 84px;
+}
+
+.authors__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 34px;
+}
+
+.authors__real-man {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.authors__real-man:not(:first-child) {
+  margin-top: 80px;
+}
+
+.authors__photo {
+  margin-right: 16px;
+  display: block;
+}
+
+.authors__info-about-host {
+  display: flex;
+  align-items: center;
+}
+
+.authors__real-name {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.authors__info-icon {
+  background-image: url("../img/info-icon.svg");
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+
+.authors__real-man-position {
+  font-size: 18px;
+}
+
+.authors__author-description-one {
+  /* width: 353px; */
+  font-size: 18px;
+  line-height: 23, 4px;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 25px 16px;
+  /* box-sizing: content-box; */
+  position: absolute;
+  top: 178px;
+  left: 182px;
+  display: none;
+}
+
+.authors__author-description-two {
+  padding: 24px 21px;
+  font-size: 18px;
+  line-height: 130%;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  /* box-sizing: content-box; */
+  border-radius: 30px;
+  position: absolute;
+  bottom: 178px;
+  left: 180px;
+  display: none;
+}
+
+.authors__author-education {
+  margin-bottom: 10px;
+}
+
+.authors__info-icon:hover .authors__author-description {
+  display: block;
+}
+
+.authors__mobile-author-description {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1279px) {
+  .content {
+    margin: 0 auto;
+  }
+
+  /* .program-course {
+    padding: 0 49px !important;
+  } */
+
+  .program-course__section-title {
+    margin-bottom: 55px;
+    margin-left: 21px;
+  }
+
+  .program-course__program {
+    width: 31.4%;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-right: 21px;
+    margin-bottom: 26px;
+  }
+
+  .program-course__program:nth-last-of-type(3),
+  .program-course__program:nth-last-of-type(6) {
+    margin-right: 0;
+  }
+
+  .program-course__title-container {
+    position: relative;
+  }
+
+  .program-course__black-line-separator {
+    position: absolute;
+    top: 13px;
+    height: 8px;
+    background-color: black;
+  }
+
+  .program-course__title {
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 18px;
+    padding-left: 11px;
+  }
+
+  .program-course__timetable {
+    font-size: 14px;
+    padding-left: 11px;
+  }
+
+  .program-course__host {
+    font-size: 14px;
+    padding-left: 11px;
+  }
+
+  .man-at-the-dask {
+    max-width: 30%;
+    position: absolute;
+    right: 18px;
+    bottom: -90px;
+  }
+
+  .authors {
+    padding: 196px 65px 130px 65px !important;
+  }
+
+  .authors__title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .authors__wrapper {
+    margin-left: 41px;
+    display: flex;
+    padding-left: 19px;
+    margin: 0;
+  }
+
+  .authors__real-man {
+    margin-right: 0;
+    position: relative;
+  }
+
+  .authors__real-man:not(:first-child) {
+    margin-top: 45px;
+  }
+
+  .authors__real-name {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+
+  .authors__info-about-host {
+    margin-bottom: 10px;
+  }
+
+  .authors__real-man-position {
+    font-size: 10px;
+  }
+
+  .authors__author-description {
+    font-size: 10px;
+    width: 230px;
+  }
+
+ .authors__author-description-one {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  padding: 18px 12px 10px 14px;
+ } 
+ 
+ .authors__author-description-two {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  padding: 14px 12px 14px 14px;
+ }
+ 
+
+  .photo-left {
+    width: 109.46px;
+    height: 103.09px;
+  }
+
+  .photo-right {
+    width: 104.25px;
+    height: 96.14px;
+  }
+
+  .authors__info-icon {
+    background-image: url("../img/info-icon-tablet.svg");
+    background-position: center;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 833px) {
+  /* .program-course {
+    padding-left: 34px !important;
+    padding-right: 34px !important;
+  } */
+
+  .program-course__section-title {
+      font-size: 26px;
+      font-weight: 700;
+      margin-left: 0;
+      margin-bottom: 35px;
+  }
+  
+  .program-course__title-container {
+    position: relative;
+  }
+
+  .program-course__black-line-separator {
+  position: absolute;
+  top: 13px;
+  width: 20%;
+  height: 6px;
+  background-color: black;
+  }
+
+  .program-course__programs {
+    padding: 0 61px !important;
+  }
+
+  .program-course__programs {
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 74px;
+  }
+
+  .program-course__program {
+    width: 186px;
+    margin-right: 0;
+    margin-bottom: 24px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .course__program:nth-of-type(7),
+  .program-course__program:nth-of-type(8) {
+    margin-bottom: 40px;
+  }
+
+  .program-course__title {
+    font-size: 14px;
+    padding-left: 9px;
+    margin-bottom: 15px;
+    /* Откуда берется зазор между title and timetable ? */
+  }
+
+  .program-course__timetable,
+  .program-course__host {
+    font-size: 12px;
+    padding-left: 9px;
+  }
+
+  .program-course__img-downpart {
+    padding-bottom: 10px;
+  }
+
+  .man-at-the-dask {
+    display: none;
+  }
+
+  
+  .authors {
+    padding-left: 26px !important;
+    padding-right: 38px !important;
+    padding-top: 0 !important;
+    padding-bottom: 73px !important;
+  }
+
+  .authors__title {
+    font-size: 26px;
+    margin-left: 9px;
+  }
+
+  .authors__wrapper {
+    display: block;
+    padding: 0;
+  }
+
+  .authors__real-man {
+    display: none;
+  }
+  
+  .authors__mobile-author-description {
+    display: flex;
+    font-size: 10px;
+  }
+  
+  .authors__real-name {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .authors__author-education {
+    padding-top: 17px;
+    padding-bottom: 19px;
+    margin: 0;
+  }
+
+  .authors__mobile-author-description:last-child {
+    margin-top: 69px;
+  }
+
+  .authors__photo {
+    margin-right: 7px;
+  }
+}
+
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+  
+
+
+  
+
+
+  

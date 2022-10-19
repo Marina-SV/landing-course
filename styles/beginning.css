@@ -1,0 +1,145 @@
+.beginning-container {
+    background-color: #9DC9C8;
+}
+
+.beginning{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 194px;
+    padding-top: 180px;
+}
+
+.beginning__price{
+    margin-top: 64px; ;
+}
+
+.price__text, .level__any, .now__come{
+    line-height: 101%;
+    font-size: 25px;
+}
+
+
+.price__numbers{
+    line-height: 101%;
+    font-size: 80px;
+}
+
+.beginning__motivation{
+    display: flex;
+    margin-top: 78px;
+}
+
+.level__text, .now__text{
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 101%;
+}
+
+.motivation__level, .motivation__now{
+width: 25%;
+}
+
+.motivation__now{
+margin-left: 5%;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .beginning {
+        width: 100%;
+        font-size: 12px;
+        padding-top: 104px;
+        padding-bottom: 114px;
+    }
+
+    .beginning__title {
+        font-size: 32px;
+    }
+
+    .beginning__price{
+        margin-top: 38px;
+
+    }
+    
+    .price__text, .level__any, .now__come{
+        line-height: 101%;
+        font-size: 14px;
+    }
+    
+    
+    .price__numbers{
+        line-height: 101%;
+        font-size: 46px;
+    }
+    
+    .beginning__motivation{
+        display: flex;
+        margin-top: 46px;
+    }
+    
+    .level__text, .now__text{
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 101%;
+    }
+    
+    .motivation__level, .motivation__now{
+    width: 24%;
+    }
+    
+    .motivation__now{
+    margin-left: 6%;
+    }
+    
+}
+
+@media screen and (max-width: 834px) {
+
+    .beginning {
+        width: 100%;
+        font-size: 10px;
+        padding-top: 62px;
+        padding-bottom: 68px;
+    }
+
+    .beginning__title {
+        font-size: 26px;
+        width: 74%;
+    }
+    .beginning__price{
+        margin-top: 34px;
+        
+    }
+    
+    .price__text, .level__any, .now__come{
+        line-height: 101%;
+        font-size: 12px;
+    }
+    
+    
+    .price__numbers{
+        line-height: 101%;
+        font-size: 37px;
+    }
+    
+    .beginning__motivation{
+        display: flex;
+        margin-top: 36px;
+    }
+    
+    .level__text, .now__text{
+        font-size: 10px;
+        margin-top: 6px;
+        line-height: 101%;
+    }
+    
+    .motivation__level, .motivation__now{
+    width: 46%;
+    }
+    
+    .motivation__now{
+    margin-left: 9%;
+    }
+
+}
